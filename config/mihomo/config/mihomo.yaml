@@ -31,7 +31,7 @@ rule-anchor:
   domain_text: &domain_text {type: http, interval: 86400, behavior: domain, format: text}
 
 proxy-providers:
-  HH: {<<: *P, url: "https://update.glados-config.com/clash/508388/5094884/123174/glados-openclash.yaml"}
+  HH: {<<: *P, url: "订阅链接"}
 
 proxies:
   - {name: 直连, type: direct, udp: true}
